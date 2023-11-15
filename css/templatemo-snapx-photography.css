@@ -2433,9 +2433,32 @@ section.contact-us .info-item a:hover {
   color: #9B62F7;
 }
 
+.redes {
+    flex-wrap: wrap;
+}
+
+.redes ul {
+    list-style-type: none;
+}
+.redes  a:hover .iconos {
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);}
+.redes  a {
+  overflow:hidden;
+}
+
+.iconos {
+    width: 40px;
+    height: 50px;
+    justify-content: space-between;
+    border-radius: 20%;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
 #videos{
   width: 100%;
-  height: 100%;
+  height: 700px;
 }
 
 .wp  {
