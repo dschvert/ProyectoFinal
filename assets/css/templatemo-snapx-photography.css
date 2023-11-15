@@ -146,6 +146,9 @@ body {
   .mobile-bottom-fix-big {
     margin-bottom: 60px;
   }
+  .redes {
+    display: none;
+  }
 }
 
 .border-button a {
@@ -1447,6 +1450,9 @@ page heading
 @media (min-width: 992px) {
   .page-heading .main-content .counter div {
     margin: 0px 10px;
+  }
+  .redes {
+    display: block;
   }
 }
 .page-heading .main-content .counter div .value {
