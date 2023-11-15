@@ -2448,8 +2448,8 @@ section.contact-us .info-item a:hover {
 }
 
 .iconos {
-    width: 40px;
-    height: 50px;
+    width:20px;
+    height: 30px;
     justify-content: space-between;
     border-radius: 20%;
     text-decoration: none;
@@ -2462,8 +2462,8 @@ section.contact-us .info-item a:hover {
 }
 
 .wp  {
-  width: 4%;
-  height: 7%;
+    width:20px;
+    height: 30px;
   position: fixed;
   bottom: 4%;
   right: 4%;
