@@ -824,9 +824,9 @@ a.btn_red {
   text-transform: capitalize;
 }
 
-.user_login label {
+/* .user_login label {
   color: #afafaf;
-}
+} */
 
 .action_btns {
   clear: both;
@@ -836,94 +836,6 @@ a.btn_red {
 .action_btns a {
   display: block;
 }
-/* User Login Form */
-
-.user_login {
-  display: none;
-}
-
-.user_login label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.user_login input[type="text"],
-.user_login input[type="email"],
-.user_login input[type="password"] {
-  display: block;
-  width: 90%;
-  padding: 10px;
-  border: 1px solid #DDD;
-  color: #666;
-}
-
-.user_login input[type="checkbox"] {
-  float: left;
-  margin-right: 10px;
-  width: 22px;
-  height: 22px;
-}
-
-.user_login input[type="checkbox"]+label {
-  float: left;
-}
-
-.user_login .checkbox {
-  margin-bottom: 10px;
-  clear: both;
-  overflow: hidden;
-}
-
-.forgot_password {
-  display: block;
-  margin: 20px 0 10px;
-  clear: both;
-  overflow: hidden;
-  text-decoration: none;
-  color: #9B62F7;
-  transition: all .3s;
-}
-/* User Register Form */
-
-.user_register {
-  display: none;
-}
-
-.user_register label {
-  color: #afafaf;
-  display: block;
-  margin-bottom: 5px;
-}
-
-.user_register input[type="text"],
-.user_register input[type="email"],
-.user_register input[type="password"] {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #DDD;
-  color: #666;
-}
-
-.user_register input[type="checkbox"] {
-  width: 22px;
-  height: 22px;
-  float: left;
-  margin-right: 8px;
-}
-
-.user_register input[type="checkbox"]+label {
-  float: left;
-  color: #afafaf;
-}
-
-.user_register .checkbox {
-  margin-bottom: 10px;
-  clear: both;
-  overflow: hidden;
-}
-
-
 /*
 ---------------------------------------------
 Banner Style
@@ -931,7 +843,7 @@ Banner Style
 */
 
 .main-banner {
-  background-image: url(../images/banner-bg.jpg);
+  background-image: url(../images/banner5.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1024,6 +936,7 @@ section.featured-items {
 .featured-items .item .thumb img {
   border-radius: 15px;
 }
+
 
 .featured-items .item .thumb:hover .hover-effect {
   top: 0;
@@ -1248,7 +1161,7 @@ closed contests
 */
 
 section.closed-contests {
-  background-image: url(../images/closed-bg.jpg);
+  background-image: url(../images/fondoclosed6.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1478,7 +1391,7 @@ page heading
 */
 
 .page-heading {
-  background-image: url(../images/heading-bg.jpg);
+  background-image: url(../images/head2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -2338,7 +2251,7 @@ section.portfolio .thumb:hover .hover-effect {
   opacity: 1;
   visibility: visible;
 }
-
+/*
 section.portfolio .thumb .hover-effect {
   position: absolute;
   left: 0;
@@ -2351,7 +2264,7 @@ section.portfolio .thumb .hover-effect {
   transition: all .3s;
 }
 
-section.portfolio .thumb .hover-effect .content {
+section.portfolio .videos .hover-effect .content {
   text-align: center;
   padding: 30px;
   display: inline-block;
@@ -2406,7 +2319,7 @@ section.portfolio .thumb .hover-effect .content ul li a:hover {
   background-color: #9B62F7;
   color: #fff;
 }
-
+*/
 section.portfolio .main-button {
   text-align: center;
   margin-top: 30px;
@@ -2520,6 +2433,42 @@ section.contact-us .info-item a:hover {
   color: #9B62F7;
 }
 
+.redes {
+    flex-wrap: wrap;
+}
+
+.redes ul {
+    list-style-type: none;
+}
+.redes  a:hover .iconos {
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);}
+.redes  a {
+  overflow:hidden;
+}
+
+.iconos {
+    width:20px;
+    height: 30px;
+    justify-content: space-between;
+    border-radius: 20%;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+#videos{
+  width: 100%;
+  height: 700px;
+}
+
+.wp  {
+    width:20px;
+    height: 30px;
+  position: fixed;
+  bottom: 4%;
+  right: 4%;
+  border-radius:15%;
+}
 
 /*
 ---------------------------------------------
